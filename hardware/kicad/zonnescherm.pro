@@ -1,4 +1,4 @@
-update=Tue 12 Jul 2016 06:22:51 PM CEST
+update=Tue 12 Jul 2016 06:46:27 PM CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -59,3 +59,4 @@ LibName27=atmel
 LibName28=contrib
 LibName29=lib/kicad-ESP8266/ESP8266
 LibName30=valves
+LibName31=lib/modex/modex
