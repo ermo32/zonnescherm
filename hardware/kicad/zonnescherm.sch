@@ -1,35 +1,5 @@
 EESchema Schematic File Version 2
 LIBS:zonnescherm-rescue
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:ESP8266
-LIBS:valves
 LIBS:modex
 LIBS:zonnescherm-cache
 EELAYER 25 0
@@ -113,7 +83,7 @@ F 3 "" H 8600 4550 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L IRM-05-5 U1
+L IRM-05-5-RESCUE-zonnescherm U1
 U 1 1 57852A7E
 P 2700 1550
 F 0 "U1" H 2850 1354 50  0000 C CNN

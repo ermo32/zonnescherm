@@ -1,4 +1,4 @@
-update=Sat 30 Jul 2016 01:03:26 PM CEST
+update=Wed 07 Sep 2016 08:14:47 PM CEST
 version=1
 last_client=kicad
 [cvpcb]
@@ -6,6 +6,25 @@ version=1
 NetIExt=net
 [general]
 version=1
+[pcbnew]
+version=1
+PageLayoutDescrFile=
+LastNetListRead=
+PadDrill=3.2
+PadDrillOvalY=3.2
+PadSizeH=3.2
+PadSizeV=3.2
+PcbTextSizeV=1.5
+PcbTextSizeH=1.5
+PcbTextThickness=0.3
+ModuleTextSizeV=1
+ModuleTextSizeH=1
+ModuleTextSizeThickness=0.15
+SolderMaskClearance=0.2
+SolderMaskMinWidth=0
+DrawSegmentWidth=0.2
+BoardOutlineThickness=0.15
+ModuleOutlineThickness=0.15
 [eeschema]
 version=1
 LibDir=lib/kicad-library/library;lib/kicad-ESP8266
@@ -42,22 +61,3 @@ LibName29=contrib
 LibName30=lib/kicad-ESP8266/ESP8266
 LibName31=valves
 LibName32=lib/modex/modex
-[pcbnew]
-version=1
-PageLayoutDescrFile=
-LastNetListRead=
-PadDrill=3.2
-PadDrillOvalY=3.2
-PadSizeH=3.2
-PadSizeV=3.2
-PcbTextSizeV=1.5
-PcbTextSizeH=1.5
-PcbTextThickness=0.3
-ModuleTextSizeV=1
-ModuleTextSizeH=1
-ModuleTextSizeThickness=0.15
-SolderMaskClearance=0.2
-SolderMaskMinWidth=0
-DrawSegmentWidth=0.2
-BoardOutlineThickness=0.15
-ModuleOutlineThickness=0.15
