@@ -1376,9 +1376,9 @@
     )
   )
 
-  (module modex:board_75x75_mm_mod (layer F.Cu) (tedit 57990F6D) (tstamp 5798F88B)
+  (module modex:board_75x75_mm_mod (layer F.Cu) (tedit 579DAA57) (tstamp 5798F88B)
     (at 108.5 58.928)
-    (fp_text reference REF** (at 2 -1) (layer F.SilkS) hide
+    (fp_text reference "" (at 2 -1) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value board_75x75_mm (at 38 -1) (layer F.Fab) hide
