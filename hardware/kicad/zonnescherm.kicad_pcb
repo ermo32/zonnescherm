@@ -2,8 +2,8 @@
 
   (general
     (links 80)
-    (no_connects 7)
-    (area 108.05 56.953 183.700501 134.128501)
+    (no_connects 8)
+    (area 97.763 56.953 183.700501 134.128501)
     (thickness 1.6)
     (drawings 18)
     (tracks 313)
@@ -612,7 +612,7 @@
   )
 
   (module Resistors_SMD:R_0805_HandSoldering (layer B.Cu) (tedit 57948F85) (tstamp 57892127)
-    (at 100.838 90.424 90)
+    (at 120.904 99.2124 90)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /578923F6)
@@ -670,7 +670,7 @@
   )
 
   (module Resistors_SMD:R_0805_HandSoldering (layer B.Cu) (tedit 57948F8B) (tstamp 5789213F)
-    (at 104.902 90.678 90)
+    (at 118.618 99.2124 90)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /578533AE)
@@ -1746,7 +1746,7 @@
     )
   )
 
-  (gr_text rev.1.0 (at 153.162 131.064) (layer F.SilkS)
+  (gr_text rev.2.0 (at 153.162 131.064) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.2)))
   )
   (gr_line (start 170.688 85.598) (end 165.608 85.598) (angle 90) (layer F.SilkS) (width 0.2))
@@ -1903,7 +1903,6 @@
   (segment (start 138.684 105.156) (end 138.684 102.616) (width 1) (layer B.Cu) (net 3) (tstamp 579C5465))
   (segment (start 117.856 107.87) (end 117.856 98.044) (width 0.25) (layer B.Cu) (net 3))
   (segment (start 118.618 97.282) (end 118.618 94.441) (width 0.25) (layer B.Cu) (net 3) (tstamp 579C537F))
-  (segment (start 117.856 98.044) (end 118.618 97.282) (width 0.25) (layer B.Cu) (net 3) (tstamp 579C537E))
   (segment (start 131.318 110.871) (end 131.318 114.3) (width 1) (layer B.Cu) (net 3))
   (segment (start 131.318 114.3) (end 131.318 115.316) (width 1) (layer B.Cu) (net 3) (tstamp 579C8A8F))
   (segment (start 131.318 115.316) (end 131.318 119.10314) (width 1) (layer F.Cu) (net 3) (tstamp 57990857))
@@ -1987,6 +1986,7 @@
   (segment (start 114.681 95.758) (end 114.681 100.33) (width 0.25) (layer F.Cu) (net 13) (tstamp 5790E460))
   (segment (start 120.269 90.17) (end 114.681 95.758) (width 0.25) (layer F.Cu) (net 13) (tstamp 5790E45F))
   (via (at 120.269 90.17) (size 0.6) (drill 0.4) (layers F.Cu B.Cu) (net 13))
+  (segment (start 117.856 98.044) (end 118.618 97.282) (width 0.25) (layer B.Cu) (net 14) (tstamp 579C537E))
   (segment (start 133.348 80.136) (end 131.446 80.136) (width 0.25) (layer F.Cu) (net 14))
   (segment (start 118.5164 101.5746) (end 114.681 105.41) (width 0.25) (layer F.Cu) (net 14) (tstamp 57D3D354))
   (segment (start 118.5164 96.3676) (end 118.5164 101.5746) (width 0.25) (layer F.Cu) (net 14) (tstamp 57D3D34E))

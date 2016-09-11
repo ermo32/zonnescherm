@@ -37,12 +37,12 @@
   )
 
   (setup
-    (last_trace_width 0.25)
+    (last_trace_width 0.2)
     (user_trace_width 0.25)
     (user_trace_width 0.5)
     (user_trace_width 1)
     (user_trace_width 2)
-    (trace_clearance 0.15)
+    (trace_clearance 0.153)
     (zone_clearance 0.508)
     (zone_45_only no)
     (trace_min 0.2)
@@ -144,8 +144,8 @@
   (net 46 "Net-(P5-Pad10)")
 
   (net_class Default "This is the default net class."
-    (clearance 0.15)
-    (trace_width 0.25)
+    (clearance 0.153)
+    (trace_width 0.2)
     (via_dia 0.6)
     (via_drill 0.4)
     (uvia_dia 0.3)
@@ -1987,8 +1987,8 @@
   (segment (start 114.681 95.758) (end 114.681 100.33) (width 0.25) (layer F.Cu) (net 13) (tstamp 5790E460))
   (segment (start 120.269 90.17) (end 114.681 95.758) (width 0.25) (layer F.Cu) (net 13) (tstamp 5790E45F))
   (via (at 120.269 90.17) (size 0.6) (drill 0.4) (layers F.Cu B.Cu) (net 13))
-  (segment (start 133.348 80.136) (end 131.446 80.136) (width 0.25) (layer F.Cu) (net 14) (status 400000))
-  (segment (start 118.5164 101.5746) (end 114.681 105.41) (width 0.25) (layer F.Cu) (net 14) (tstamp 57D3D354) (status 800000))
+  (segment (start 133.348 80.136) (end 131.446 80.136) (width 0.25) (layer F.Cu) (net 14))
+  (segment (start 118.5164 101.5746) (end 114.681 105.41) (width 0.25) (layer F.Cu) (net 14) (tstamp 57D3D354))
   (segment (start 118.5164 96.3676) (end 118.5164 101.5746) (width 0.25) (layer F.Cu) (net 14) (tstamp 57D3D34E))
   (segment (start 125.349 89.535) (end 118.5164 96.3676) (width 0.25) (layer F.Cu) (net 14) (tstamp 57D3D348))
   (segment (start 125.349 86.233) (end 125.349 89.535) (width 0.25) (layer F.Cu) (net 14) (tstamp 57D3D33D))
