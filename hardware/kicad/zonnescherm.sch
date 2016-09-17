@@ -50,17 +50,6 @@ F 3 "" H 8600 2100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L FTR-LYCA K2
-U 1 1 57852684
-P 8600 2900
-F 0 "K2" H 8600 3050 50  0000 C CNN
-F 1 "K1-UP/DOWN" H 8600 2400 50  0000 C CNN
-F 2 "modex:FTR_LY" H 8600 2900 50  0001 C CNN
-F 3 "" H 8600 2900 50  0000 C CNN
-	1    8600 2900
-	1    0    0    -1  
-$EndComp
-$Comp
 L FTR-LYCA K3
 U 1 1 5785271F
 P 8600 3700
@@ -476,39 +465,11 @@ Wire Wire Line
 Wire Wire Line
 	7800 4800 8200 4800
 Wire Wire Line
-	8200 4600 8200 4300
-Wire Wire Line
-	8200 4300 9100 4300
-Wire Wire Line
-	9100 4300 9100 3850
-Wire Wire Line
-	9100 3850 9000 3850
-Wire Wire Line
-	8200 3750 8100 3750
-Wire Wire Line
-	8100 3750 8100 3500
-Wire Wire Line
-	8100 3500 9400 3500
-Wire Wire Line
-	9000 4500 10350 4500
-Wire Wire Line
 	9000 4700 9300 4700
-Wire Wire Line
-	8200 2950 8100 2950
-Wire Wire Line
-	8100 2950 8100 2650
-Wire Wire Line
-	8100 2650 9100 2650
-Wire Wire Line
-	9100 2650 9100 2250
-Wire Wire Line
-	9100 2250 9000 2250
 Wire Wire Line
 	8200 2150 8100 2150
 Wire Wire Line
-	8100 2150 8100 1900
-Wire Wire Line
-	9000 2850 10350 2850
+	8100 1900 8100 4600
 Wire Wire Line
 	9000 3050 9300 3050
 Wire Wire Line
@@ -550,9 +511,6 @@ PE
 Wire Wire Line
 	7850 1500 9600 1500
 Connection ~ 9600 2200
-Wire Wire Line
-	9400 3500 9400 1900
-Connection ~ 9400 1900
 Wire Wire Line
 	3050 2950 5800 2950
 Wire Wire Line
@@ -845,4 +803,36 @@ Wire Wire Line
 	2800 5450 2800 5350
 Wire Wire Line
 	3750 5450 3750 5350
+$Comp
+L FTR-LYCA K2
+U 1 1 57852684
+P 8600 2900
+F 0 "K2" H 8600 3050 50  0000 C CNN
+F 1 "K1-UP/DOWN" H 8600 2400 50  0000 C CNN
+F 2 "modex:FTR_LY" H 8600 2900 50  0001 C CNN
+F 3 "" H 8600 2900 50  0000 C CNN
+	1    8600 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8100 2950 8200 2950
+Connection ~ 8100 2150
+Wire Wire Line
+	8100 3750 8200 3750
+Connection ~ 8100 2950
+Wire Wire Line
+	8100 4600 8200 4600
+Connection ~ 8100 3750
+Wire Wire Line
+	10350 2850 9300 2850
+Wire Wire Line
+	9300 2850 9300 2250
+Wire Wire Line
+	9300 2250 9000 2250
+Wire Wire Line
+	9000 3850 9300 3850
+Wire Wire Line
+	9300 3850 9300 4500
+Wire Wire Line
+	9300 4500 10350 4500
 $EndSCHEMATC
