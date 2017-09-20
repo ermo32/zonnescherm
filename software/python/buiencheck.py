@@ -3,7 +3,6 @@ import urllib.request
 import calendar
 
 from datetime import datetime, time, timedelta
-from math import cos, sin, acos as arccos, asin as arcsin, tan as tg, degrees, radians
 
 def check_buien(latitude,longitude):
     url = 'http://gps.buienradar.nl/getrr.php?lat=' + str(latitude) + '&lon=' + str(longitude)
@@ -39,15 +38,6 @@ def check_buien(latitude,longitude):
             #print(item,buien)
     if buien == 1:
         print("Regen begint om",rain_start,"en duurt onbekend lang, met een gemiddelde sterkte van",round(avg/avg_count,1))
-    #print(data)
-    
-    
-    
-    #if ((rain_start != "Onbekend") and (rain_stop != "Onbekend")):
-    #    print("Time delta:  ",datetime.strptime(rain_start, "%H:%M") - datetime.strptime(time_now, "%H:%M"))
-				
-    #return(buien)
-
 
 # Main program
 # Location data
