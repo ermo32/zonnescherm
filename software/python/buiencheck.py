@@ -31,12 +31,14 @@ def check_buien(latitude,longitude):
             if (int(item.decode()[:3])==0) and (buien == 1):
                 rain_stop = item.decode()[4:9]  
                 duur = datetime.strptime(rain_stop, "%H:%M") - datetime.strptime(rain_start, "%H:%M")
-                print("Regen begint om",rain_start,"en duurt",duur,"met een gemiddelde sterkte van",avg/avg_count)
+                print("Regen begint om",rain_start,"en duurt",duur,"met een gemiddelde sterkte van",round(avg/avg_count,1))
                 buien = 0
             if buien == 1:
                 avg = avg + int(item.decode()[:3])
                 avg_count = avg_count + 1
-	
+            #print(item,buien)
+    if buien == 1:
+        print("Regen begint om",rain_start,"en duurt onbekend lang, met een gemiddelde sterkte van",round(avg/avg_count,1))
     #print(data)
     
     
