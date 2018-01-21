@@ -1,13 +1,9 @@
 #include <ESP8266WiFi.h>
 #include <WiFiClient.h>
-#include <ESP8266mDNS.h>
 
 #include <DNSServer.h>
 #include <ESP8266WebServer.h>
 #include <WiFiManager.h>
-
-const char* ssid = "dd-wrt";
-const char* password = "BCIRWyyy";
 
 ESP8266WebServer server(80);
 
@@ -108,31 +104,7 @@ void setup(void){
   wifiManager.autoConnect("AutoConnectAP");
   //if you get here you have connected to the WiFi
   Serial.println("connected...yeey :)");
-  
-  //WiFi.begin(ssid, password);
-
-// Set a static IP (optional)  
-  //IPAddress ip(192, 168, 0, 55);
-  //IPAddress gateway(192, 168, 0, 1);
-  //IPAddress subnet(255, 255, 255, 0);
-  //WiFi.config(ip, gateway, subnet);
-  
   Serial.println("");
-
-  // Wait for connection
-  //while (WiFi.status() != WL_CONNECTED) {
-  //  delay(500);
-  //  Serial.print(".");
- // }
-  //Serial.println("");
-  //Serial.print("Connected to ");
-  //Serial.println(ssid);
-  //Serial.print("IP address: ");
-  //Serial.println(WiFi.localIP());
-
-  //if (MDNS.begin("esp8266")) {
-  //  Serial.println("MDNS responder started");
- // }
 
   server.on("/", handleRoot);
 
